@@ -139,6 +139,7 @@
     <Linkage-libxml2>static</Linkage-libxml2>
     <OutDir>$(ProjectDir)bin\$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(ProjectDir)obj\$(Platform)\$(Configuration)\</IntDir>
+    <IncludePath>$(SolutionDir)zlib\contrib\minizip;$(SolutionDir)zlib;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Linkage-libxml2>static</Linkage-libxml2>
