@@ -98,7 +98,7 @@ The following command encrypts document targeting two devices using their serial
 .Pp
 .Dl % mobidrm -e -s B001XXXXXXXXXX01 -s B001XXXXXXXXXX02 example.mobi
 .Pp
-The following command encrypts document for device wth given serial number. Document will only be valid within given period (inclusive).
+The following command encrypts document for device with given serial number. Document will only be valid within given period (inclusive).
 .Pp
 .Dl % mobidrm -e -s B001XXXXXXXXXX01 -f 2021-01-01 -t 2021-01-31 example.mobi
 .Sh RETURN VALUES
