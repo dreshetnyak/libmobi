@@ -1,3 +1,13 @@
+2024-10-29: Update github actions
+2024-10-29: Fix CMake build, closes #49
+2024-07-04: Minor rewording in man page
+2024-06-17: Fix typo
+2024-06-17: Version 0.12
+2024-02-04: Fix: missing header with libxml2 >= 2.12
+2024-02-04: Max index count value is too low for some dictionaries
+2023-08-10: Fix CMake debug build with MSVC, fixes #46
+2023-07-11: Clean up unused value
+2023-07-11: Fix clang warning about missing function prototypes (-Wstrict-prototypes)
 2023-02-21: Update Xcode project settings
 2023-02-21: Replace deprecated functions
 2023-02-21: Try to reconstruct sources even on broken indices
